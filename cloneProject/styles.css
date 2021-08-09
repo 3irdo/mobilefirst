@@ -107,10 +107,84 @@
     background-image: url("../assets/Vector.svg");
   }
 
-  .twosection__imgbitcoin {
-  
+  main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
   }
+  .main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px; 
+    text-align: center;
+  }
+
+  .main-exchange-container div .backgroundImg {
+    width: 80px;
+    height: auto;
+    left: 68px;
+    top: 393px;
+  }
+
+  .main-exchange-container__tittle {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .main-exchange-container__tittle h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 2.4rem;
+  }
+
+  .main-exchange-container__tittle p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #757575;
+    line-height: 1.8rem;
+    margin-bottom:2.4rem ;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .main-table-container {
+    display: flex;
+    width: 235px;
+    height: 194px;
+    margin-left: 62px;
+    margin-right: 23px;
+  }
+
+  .main-table-container h2 {
+    display: flex;
+    width: 81px;
+    height: 23px;
+    left: 74px;
+    top: 804px;
+    margin-bottom: 1.2rem;
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: var(--bitcoin-orange);
+  }
+
+  .main-table-container .exchangeList {
     
+    margin-top: 45px;
+    text-align: left;
+  }
+
+  .main-table-container .exchangeList span {
+    text-align: left;
+    margin-left: 114px;
+  }
+
+
+
+ 
   
   
   
