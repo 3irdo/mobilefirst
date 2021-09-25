@@ -253,6 +253,19 @@
     color: var(--warm-black);
   }
 
+  .main-comision-table {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .comision-table__container { 
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    width: 30.14rem;
+    height: 20.4rem;
+  }
+
 
 
   /* .main-currency-table {
