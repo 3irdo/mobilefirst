@@ -139,7 +139,7 @@
   }
 
   .main-exchange-container__tittle h2 {
-    margin-bottom: 30px;
+    margin: 0px 15px 30px 15px;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
@@ -148,6 +148,7 @@
   } 
 
   .main-exchange-container__tittle p {
+    margin: 0px 15px 30px 15px;
     font-size: 1.4rem;
     font-weight: 500;
     color: #757575;
@@ -304,13 +305,18 @@
   }
   
   .main-product-detail {
+    position: relative;
     display: grid;
     background-color: var(--warm-black);
     align-items: center;
   }
 
   .main-product-detail .potatoe {
-    margin-bottom: 20px;
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    
   }
 
   .main-product-detail {
@@ -341,18 +347,17 @@
     display: grid;
     justify-items: center;
     grid-template-columns: 1 1fr;
-    gap: 15px;
+    gap: 20px;
     width: 80%;
     margin: 0 auto;
-    margin-top: 30px; 
+    margin: 30px 0px 64px 0px;
   }
-
   .main-product-cards-container div {
     background-color: var(--warm-black1);
     border-radius: 1.5px;
     width: 28.8rem;
     height: 15.2rem;
-    box-shadow: 1px 1px 2px 1px black;
+    box-shadow: 3px 3px 3px 3px var(--warm-black1);
 
   }
 
@@ -362,6 +367,7 @@
     font-weight: bold;
     line-height: 1.8rem;
     text-align: left;
+    margin-left: 15px;
   }
 
   .main-product-cards-container div p {
@@ -370,11 +376,35 @@
     font-weight: 500; 
     line-height: 1.8rem;
     text-align: justify;
-    margin-top: 8px;
+    margin: 8px 15px 0px 15px ;
+  }
+
+  .main-product-cards-container span {
+    display: inline-block;
+    margin: 15px 0px 10px 15px;
+  }
+
+  .bitcoinbaby {
+    position: relative;
+    background-color: var(--warm-black);
+  }
+
+  .bitcoinbaby__title {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    position: absolute;
+    margin:  0 auto;
+    top: calc(50%  0px);
+    left: calc(50%  0px)
   }
 
 
+   
 
+ 
+  
 
 
  
