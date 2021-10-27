@@ -157,7 +157,80 @@
     margin-bottom: 30px; 
   }
 
+  .main-tables-container {
+    display: grid;
+    gap: 50px;
+  }
+
   .main-currency-table {
+    display: grid;
+   }
+
+  .currency-table__container { 
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--just-white);
+    margin: 0 auto;
+    width: 50%;
+    min-width: 26rem;
+    max-width: 32rem;
+    height: 25rem;
+    border-radius: 15px 15px 15px 15px;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  }
+
+  .currency-table__container div {
+    font-size: 1.4rem;
+    color:#757575;
+  }
+  .currency-table__container div p {
+    font-size: 1.6rem;
+    color: #B5B0AC;
+  }
+
+  .currency-table__title {
+    color: var(--bitcoin-orange);
+    margin: 0px 90px 15px 0px;
+  }
+
+  .currency-table__date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+  }
+
+  .currency-table__date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+  }
+
+  .currency-table__container .up {
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url(/assets/trending-up\ 1.svg);
+    background-size: cover;
+  }
+
+  .currency-table__container .down {
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url(/assets/trending-down\ 1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* .main-currency-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -254,12 +327,11 @@
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
-  }
+  } */
 
   .main-comision-table {
     display: grid;
-   
-  }
+   }
 
   .comision-table__container { 
     display: grid;
@@ -445,7 +517,7 @@
    position: relative;
    width: 70%;
    min-width: 190px;
-   max-width: 300px;
+   max-width: 230px;
    height: 250px;
    margin: 50px 5px 0px ;
    padding: 0 15px;
@@ -494,6 +566,8 @@
  .plan-card__saving1 {
   font-weight: 500;
   font-size: 1.2rem;
+  max-width: 190px;
+  max-height: 45px;
   line-height: 15px;
   margin: 16px 0;
   color: #757575;
@@ -535,7 +609,7 @@
   position: relative;
   width: 70%;
   min-width: 190px;
-  max-width: 300px;
+  max-width: 220px;
   height: 250px;
   margin: 50px 5px 0px ;
   padding: 0 15px;
@@ -606,7 +680,8 @@
  height: 20px;
  background-image: url(/assets/arrow-right\ 1.png);
  right: 15px; 
- top: calc(50% - 12px);
+ top: calc(50% - 12px)
+ 
 
 }
 
@@ -625,7 +700,7 @@
   position: relative;
   width: 70%;
   min-width: 190px;
-  max-width: 300px;
+  max-width: 220px;
   height: 250px;
   margin: 50px 5px 0 ;
   padding: 0 15px;

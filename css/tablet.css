@@ -12,3 +12,12 @@
 .plans-container__slider {
     justify-content: center;
 }
+
+.bitcoinbaby {
+    background-image: url(/img/bitcoinbaby\ x2.png);
+}
+
+/* .plans-container__card1, .plans-container__card2, .plans-container__card3 {
+    max-width: 190px;
+} */
+
